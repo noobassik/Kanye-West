@@ -1,0 +1,5 @@
+web: SCOUT_DEV_TRACE=true bin/rails s -p 3000
+assets: bin/webpack-dev-server
+search: elasticsearch
+sidekiq: bundle exec sidekiq
+mailcatcher: mailcatcher

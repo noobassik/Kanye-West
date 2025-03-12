@@ -1,0 +1,19 @@
+# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+#
+# To ban all spiders from the entire site uncomment the next two lines:
+User-agent: Yandex
+Disallow: /*/agencies/*?page=
+Clean-param: from_builder&new_building&plot_area_from&plot_area_to&price_from&price_to&type&with_elevator&with_parking&with_price *
+host: https://propimo.com
+
+User-agent: YandexDirect
+Allow: /
+
+User-agent: Bingbot
+Disallow: /*/agencies/*?page=
+Crawl-delay: 4
+
+User-agent: *
+Disallow: /*/agencies/*?page=
+
+Sitemap: https://propimo.com/sitemaps/sitemap.xml.gz
